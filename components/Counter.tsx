@@ -1,5 +1,6 @@
-import { adjustLikes } from "@/app/actions/adjustLikes"
+'use client'
 
+import { adjustLikes } from "@/app/actions/adjustLikes"
 
 type Props = {
     likes: number

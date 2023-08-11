@@ -1,3 +1,5 @@
+import Counter from "@/components/Counter"
+import OptimisticCounter from "@/components/OptimisticCounter"
 
 export default async function Home() {
 
@@ -14,7 +16,8 @@ export default async function Home() {
   return (
     <main className="flex flex-col items-center justify-center p-24">
       <h1 className='text-2xl font-bold text-center mb-5'>UseOptimistic Demo</h1>
-      <p>{likes}</p>
+      <Counter likes={likes} />
+      <OptimisticCounter likes={likes} />
     </main>
   )
 }

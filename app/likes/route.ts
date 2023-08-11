@@ -9,7 +9,6 @@ export async function GET() {
 export async function POST(request: Request) {
     const { amount } = await request.json()
     
-    
     if (amount) {
         likes += Number(amount)
     }
