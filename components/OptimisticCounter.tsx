@@ -20,7 +20,7 @@ export default function OptimisticCounter({ likes }: Props) {
 
   return (
     <div className='flex space-x-2 border p-5'>
-        <h2>Optimistic Counter</h2>
+        <h2>Optimistic Counter for test</h2>
         <button onClick={() => updateLikes(-1)}>-</button>
         <p>{optimisticLikes}</p>
         <button onClick={() => updateLikes(1)}>+</button>
